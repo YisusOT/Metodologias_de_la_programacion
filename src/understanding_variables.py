@@ -21,4 +21,21 @@ Los nombres de variables en python deben nombrarse solo con:
     - nombres de constantes en mayusculas
 """
 
-charly_message = "Hola, soy"
+charly_message = "Hola, soy charly y"
+print(charly_mesage, another_message)
+
+""" 
+traceback: es un registro donde el interprete tuvo problemas para ejecutar su codigo
+    
+    Traceback (most recent call last):
+    File "C:\Users\jesus\projects\Metodologias_de_la_programacion\src\understanding_variables.py", line 25, in <module>
+        print(charly_mesage, another_message)
+            ^^^^^^^^^^^^^
+    NameError: name 'charly_mesage' is not defined. Did you mean: 'charly_message'?
+
+Name error: significa que olvidamos establecer el valor de la variable antes de usarlo o cometimos un error al ingresar el nombre de la variable
+
+
+
+
+"""
