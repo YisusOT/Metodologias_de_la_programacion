@@ -22,20 +22,53 @@ Los nombres de variables en python deben nombrarse solo con:
 """
 
 charly_message = "Hola, soy charly y"
-print(charly_mesage, another_message)
+print(charly_message, another_message)
 
-""" 
+"""
 traceback: es un registro donde el interprete tuvo problemas para ejecutar su codigo
     
     Traceback (most recent call last):
-    File "C:\Users\jesus\projects\Metodologias_de_la_programacion\src\understanding_variables.py", line 25, in <module>
+    File "C:/Users/jesus/projects/Metodologias_de_la_programacion/src/understanding_variables.py", line 25, in <module>
         print(charly_mesage, another_message)
             ^^^^^^^^^^^^^
     NameError: name 'charly_mesage' is not defined. Did you mean: 'charly_message'?
 
-Name error: significa que olvidamos establecer el valor de la variable antes de usarlo o cometimos un error al ingresar el nombre de la variable
+Name error: significa que olvidamos establecer el valor de la variable antes de usarlo
+ o cometimos un error al ingresar el nombre de la variable
 
+Un string es de manera sencilla una serie de caracteres.
+En Python todo lo que se encuentre dentro de comillas simples '' o comillas dobles "" es considerado un string
+    "Esto es un string"
+    'Esto tambien es un string'
 
-
+    'Le dije a un amigo, "!Phyton es mi lenguaje favorito"'
+    "el lenguanje 'python' lleva el nombre por Monty Phyton, no por la serpiente"
+hola
 
 """
+
+name = "clase de programacion"
+print(name)
+print(name.title())
+
+"""
+Un metodo es una accion que python puede realizar en un fragmento de datos o sobre una variable.
+El punto . despues de una variable seguida del metodo .title() dice que se tiene que ejecutar el metodo .title()
+de la variable name
+
+Todos los metodos van seguidos de un parentesis porque en ocaciones se necesitan informacion adicional para funcionar
+lo cual iria dentro de los parentesis
+En esta ocacion el metodo .title() no requiere informacion adicional para ejecutarse.
+"""
+
+print(name.lower())
+print(name.upper())
+
+#Concatenacion de strings
+print("Concatenacion de strings")
+first_name = "Charly"
+last_name = "mercury"
+full_name = first_name + " " + last_name
+print(full_name)
+
+print("Hola, " + full_name.title() + "!")
