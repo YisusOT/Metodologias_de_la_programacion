@@ -72,3 +72,42 @@ full_name = first_name + " " + last_name
 print(full_name)
 
 print("Hola, " + full_name.title() + "!")
+
+print("  ")
+print("  ")
+print("  ")
+print("  ")
+
+#Syntax error con strings
+message = "Una fortaleza de 'python' es su comunidad"
+print(message)
+
+print("  ")
+
+# Concatenacion convencional
+famous_person = "Charly mercury"
+quote = "Python is love"
+message = famous_person + " una vez dijo " + quote
+print(message)
+
+# concatenacion con fstring
+message_f_string = f"{famous_person} una vez dijo {quote}"
+print(message_f_string)
+
+# actividad
+
+""" 
+1) Elige un personaje famoso e igualalo a una variable de tipo string
+2) Elige una frase famosa que haya dicho e igualalo a una variable de tipo string
+3) Genera un mensaje con las 2 variables usando fstring
+4) Imprime el mensaje
+"""
+
+famous_person = "Beto"
+quote = "'Ya viste lo que hacen los de tu etnia'"
+message = f"{famous_person} una vez dijo {quote}"
+print("  ")
+print("  ")
+print(message)
+print("  ")
+print("  ")
