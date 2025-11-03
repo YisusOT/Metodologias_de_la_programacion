@@ -111,3 +111,32 @@ print("  ")
 print(message)
 print("  ")
 print("  ")
+
+# Whitespace
+
+"""
+Whitespace se reifere a cualquier caracter que no se imprime, es decir, un tabulador
+y finales de linea. Los whitespace se utilizan comunmente para organizar salidas (Spirnts)
+de tal manera que sea mas amigable de leer o ver para los usuarios
+"""
+print("hOLA")
+print("\thOLA")
+print("\t\thOLA")
+
+print("Languages:\n Python \n C \n Javascript")
+
+message = """
+Esta clase es de programacion
+
+        Mis alumnos son buena onda
+
+    Metodologias de la programacion
+"""
+print(message)
+
+# Eliminacion de espacios
+programming_languages = " Phyton "
+print(programming_languages)
+print(programming_languages.lstrip())
+print(programming_languages.rstrip())
+print(programming_languages.strip())
