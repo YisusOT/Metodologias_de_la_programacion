@@ -57,20 +57,20 @@ for value in favorite_language.values():
 
 ## diccionarios dentro de listas
 covenant_jackal = {
-    "color" = 'gray',
-    "weapon" = 'plasma_sword',
-    'armament' = 'plasma grande', 
-    'health' = 5, 
+    "color" : 'gray',
+    "weapon" : 'plasma_sword',
+    'armament' : 'plasma grande', 
+    'health' : 5, 
 }
 
 covenant_elite = {
-    'COLOR' = 'verde',
-    'weapon' = 'gun'
+    'COLOR' : 'verde',
+    'weapon' : 'gun'
 }
 
 covenant_grunt = {
-    'color' = 'azul',
-    'healt' = 10
+    'color' : 'azul',
+    'healt' : 10
 }
 
 covenants = [
@@ -91,9 +91,9 @@ for covenant in covenants: # Abre lista de diccionarios
 # Listas en diccionarios
 
 students = {
-    "jorge" = ['chamoy', 'aprobado']
-    'lizarriturri' = ['camote', 'reprobado']
-    'isac' = ['merequetengue', 'aprobado2']
+    "jorge" : ['chamoy', 'aprobado'],
+    'lizarriturri' : ['camote', 'reprobado'],
+    'isac' : ['merequetengue', 'aprobado2']
 }
 
 # Diccionarios en diccionarios
